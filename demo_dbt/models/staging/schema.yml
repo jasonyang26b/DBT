@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_transaction
+    columns:
+      - name: transactionid
+        tests:
+          - unique
+          - not_null
+  
+  - name: stg_identity
+    columns: 
+      - name: id
+        tests:
+          - unique
+          - not_null
