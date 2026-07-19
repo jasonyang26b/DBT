@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: raw
-    database: ieee-fraud-pipeline
-    schema: ieee_fraud_data
-    tables:
-      - name: train_transaction	
-      - name: train_identity
