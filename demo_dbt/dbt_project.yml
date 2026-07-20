@@ -34,3 +34,5 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+      +schema: stg # create a staging schema (datasets in bigquery) for all models in this directory; if don't have, it would generate according to the name of dataset (inside it) in the profiles.yml
+  
